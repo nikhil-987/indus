@@ -3,7 +3,7 @@ import React from 'react'
 const IndustryReady = () => {
   return (
     <>
-    <section class="bg-white px-4 py-8 antialiased dark:bg-gray-900 md:py-16">
+    <div class="bg-white px-4 py-8 antialiased dark:bg-gray-900 md:py-16">
   <div class="mx-auto grid max-w-screen-xl rounded-lg bg-gray-50 p-4 dark:bg-gray-800 md:p-8 lg:grid-cols-12 lg:gap-8 lg:p-16 xl:gap-16">
     <div class="lg:col-span-5 lg:mt-0">
       <a href="#">
@@ -20,7 +20,7 @@ const IndustryReady = () => {
       <a href="#" class="inline-flex items-center justify-center rounded-lg bg-primary-700 px-5 py-3 text-center text-base font-medium text-white hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900"> Pre-order now </a>
     </div>
   </div>
-</section>
+</div>
     </>
   )
 }
