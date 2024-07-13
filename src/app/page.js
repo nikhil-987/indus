@@ -1,5 +1,6 @@
 'use client'
 import React, { useState } from 'react';
+import IndustryReady from './components/IndustryReady';
 
 function App() {
   const [email, setEmail] = useState('');
@@ -98,7 +99,9 @@ function App() {
         </div>
         {/* login end */}
       </div>
+      <IndustryReady/>
     </div>
+    
 
   );
 }
