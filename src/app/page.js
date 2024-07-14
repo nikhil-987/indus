@@ -99,7 +99,7 @@ function App() {
   {/* login end */}
 </div>
 
-      <IndustryReady/>
+      {/* <IndustryReady/> */}
     </div>
     
 
