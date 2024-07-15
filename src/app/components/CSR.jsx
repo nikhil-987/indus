@@ -1,11 +1,12 @@
 import React from "react";
 import IndustryReadyIntro from "./IndustryReadyIntro";
+import CSRIntro from "./CSRIntro";
 
-const IndustryReady = () => {
+const CSR = () => {
   return (
     <div className="grid grid-cols-1 md:grid-cols-2">
       {/* explore start */}
-      <div className="flex flex-col justify-center items-center p-10 order-2">
+      <div className="flex flex-col justify-center items-center p-10 order-2 md:order-1">
         {/* <h1 class="mb-3 text-2xl font-bold leading-tight tracking-tight text-gray-900 dark:text-white md:text-4xl">
           Save $500 today on your purchase <br />
           of a new iMac computer.
@@ -21,14 +22,14 @@ const IndustryReady = () => {
           {" "}
           Pre-order now{" "}
         </a> */}
-        <IndustryReadyIntro/>
+        <CSRIntro/>
       </div>
       {/* explore end */} {/* login start */}
-      <div className="bg-white p-10 order-1">
+      <div className="bg-white p-10 md:order-2">
         <a href="#">
           <img
             class="mb-4  dark:hidden sm:h-96 sm:w-96 md:h-full md:w-full"
-            src="images/6670985.jpg"
+            src="images/5257047.jpg"
             alt="peripherals"
           />
           {/* h-56 w-56 */}
@@ -46,4 +47,4 @@ const IndustryReady = () => {
   );
 };
 
-export default IndustryReady;
+export default CSR;
